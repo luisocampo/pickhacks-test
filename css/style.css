@@ -269,7 +269,7 @@ footer {
     Intro section
 -----------------------------------------*/
 #intro {
-    background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -283,8 +283,9 @@ footer {
      -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-    height: 110vh;
+    height: 115vh;
     text-align: center;
+		line-height: 200px;
 
 		clip-path: polygon(
     0 0,
