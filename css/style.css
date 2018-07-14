@@ -14,12 +14,6 @@ body {
 		font-weight: 400;
 }
 
-#particles-js
-{
-	height: 100%;
-	width: 100%;
-	position: absolute;
-}
 
 /*---------------------------------------
     Typorgraphy
@@ -348,7 +342,7 @@ footer {
    Speakers section
 -----------------------------------------*/
 #speakers {
-    background: #222;
+    background: #78BE20;
 }
 
 #speakers h3 {
@@ -380,13 +374,82 @@ footer {
     padding-bottom: 22px;
 }
 
+/*---------------------------------------
+   Faq section
+-----------------------------------------*/
+#faq {
+  background: #78BE20;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+
+	clip-path: polygon(
+    0 3vw,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 3vw)
+  );
+}
+
+#faq .panel-group {
+  margin-top: 32px;
+}
+
+#faq .panel-group .panel {
+  margin-bottom: 8px;
+}
+
+#faq .panel-default {
+  border: none;
+}
+
+#faq .panel-default>.panel-heading {
+  background: #f0f0f0;
+  color: #505050;
+}
+
+#faq .panel-heading {
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 6px;
+}
+
+#faq .panel-default>.panel-heading+.panel-collapse>.panel-body {
+  border-top: none;
+  padding-top: 22px;
+  padding-left: 32px;
+  padding-bottom: 22px;
+}
+
+#faq .panel-heading .panel-title a[data-toggle="collapse"] {
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px 15px;
+}
+
+#faq .panel-heading .panel-title a[data-toggle="collapse"]::after {
+  content: "-";
+  display: block;
+  position: absolute;
+  line-height: 1;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#faq .panel-heading .panel-title a[data-toggle="collapse"].collapsed::after {
+  content: "+";
+}
 
 
 /*---------------------------------------
    Program section
 -----------------------------------------*/
 #program h4 {
-    color: #808080;
+    color: #005F83;
     font-size: 12px;
 }
 
@@ -482,75 +545,6 @@ footer {
 
 
 
-/*---------------------------------------
-   Faq section
------------------------------------------*/
-#faq {
-  background: #222;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-
-	clip-path: polygon(
-    0 3vw,
-    100% 0,
-    100% 100%,
-    0 calc(100% - 3vw)
-  );
-}
-
-#faq .panel-group {
-  margin-top: 32px;
-}
-
-#faq .panel-group .panel {
-  margin-bottom: 8px;
-}
-
-#faq .panel-default {
-  border: none;
-}
-
-#faq .panel-default>.panel-heading {
-  background: #f0f0f0;
-  color: #505050;
-}
-
-#faq .panel-heading {
-  border: none;
-  padding-top: 8px;
-  padding-bottom: 6px;
-}
-
-#faq .panel-default>.panel-heading+.panel-collapse>.panel-body {
-  border-top: none;
-  padding-top: 22px;
-  padding-left: 32px;
-  padding-bottom: 22px;
-}
-
-#faq .panel-heading .panel-title a[data-toggle="collapse"] {
-  font-size: 18px;
-  font-weight: 500;
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding: 10px 15px;
-}
-
-#faq .panel-heading .panel-title a[data-toggle="collapse"]::after {
-  content: "-";
-  display: block;
-  position: absolute;
-  line-height: 1;
-  right: 1em;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#faq .panel-heading .panel-title a[data-toggle="collapse"].collapsed::after {
-  content: "+";
-}
 
 
 
