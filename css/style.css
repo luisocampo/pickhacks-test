@@ -272,6 +272,7 @@ footer {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
+		background-color: #222;
     color: #ffffff;
     display: -webkit-box;
     display: -webkit-flex;
@@ -281,8 +282,16 @@ footer {
      -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-    height: 100vh;
+    height: 110vh;
     text-align: center;
+
+		clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 6vw)
+  );
+
 }
 
 #intro h3 {
@@ -294,6 +303,14 @@ footer {
 /*---------------------------------------
    Overview  section
 -----------------------------------------*/
+#overview {
+	clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 6vw)
+  );
+}
 #overview img {
   position: relative;
   padding-bottom: 32px;
@@ -329,7 +346,7 @@ footer {
    Speakers section
 -----------------------------------------*/
 #speakers {
-    background: #f9f9f9;
+    background: #222;
 }
 
 #speakers h3 {
@@ -467,9 +484,16 @@ footer {
    Faq section
 -----------------------------------------*/
 #faq {
-  background: #f9f9f9;
+  background: #222;
   padding-top: 8rem;
   padding-bottom: 8rem;
+
+	clip-path: polygon(
+    0 3vw,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 3vw)
+  );
 }
 
 #faq .panel-group {
@@ -549,6 +573,7 @@ footer {
 /*---------------------------------------
    Sponsors section
 -----------------------------------------*/
+
 #sponsors img {
   margin-top: 18px;
 }
