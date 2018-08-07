@@ -100,9 +100,10 @@
 			<div class="col-md-12 col-sm-12">
 				<h1>PICKHACKS</h1>
 				<h4>March 1 - 3, 2019 </h4>
-				<h4><a href="https://goo.gl/maps/D8yMcL9eAaN2">Havener Center</a></h4>
+				<h4><a href="https://goo.gl/maps/D8yMcL9eAaN2" class="havener-link">Havener Center</a></h4>
 				<h4>Missouri S&T</h4>
-				<a href="#overview" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs" data-wow-delay="1s">SIGN UP FOR UPDATES</a>
+				<div class="timer"></div>
+				<a href="#overview" class="btn btn-lg btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">SIGN UP FOR UPDATES</a>
 				<!--<a href="#register" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" data-wow-delay="2.3s">SPONSOR US</a>-->
 			</div>
 
@@ -196,6 +197,51 @@
       						</div>
    						 </div>
  					 </div>
+
+					 <div class="panel panel-default">
+    						<div class="panel-heading" role="tab" id="headingFour">
+       						<h4 class="panel-title">
+         						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+           							What if I don't know how to code?
+         						</a>
+       						</h4>
+     					</div>
+    						<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+       						<div class="panel-body">
+                             	<p>No worries!</p>
+       						</div>
+    						 </div>
+  					 </div>
+
+						 <div class="panel panel-default">
+	    						<div class="panel-heading" role="tab" id="headingFive">
+	       						<h4 class="panel-title">
+	         						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+	           							How can I get there?
+	         						</a>
+	       						</h4>
+	     					</div>
+	    						<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+	       						<div class="panel-body">
+	                             	<p>Car, bus, train, plane -- however you want. We’ll also be sending busses to select schools around the Midwest.</p>
+	       						</div>
+	    						 </div>
+	  					 </div>
+
+							 <div class="panel panel-default">
+		    						<div class="panel-heading" role="tab" id="headingSix">
+		       						<h4 class="panel-title">
+		         						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+		           							Is there travel reimbursement?
+		         						</a>
+		       						</h4>
+		     					</div>
+		    						<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+		       						<div class="panel-body">
+		                             	<p>We’re currently working on allocating our budget to enable as many people to attend as possible. Stay tuned and we’ll let you know closer to the event date.</p>
+		       						</div>
+		    						 </div>
+		  					 </div>
 
  				 </div>
 			</div>
@@ -399,6 +445,12 @@
 <script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/smoothscroll.js"></script>
+<script src="js/timeCounter.js"></script>
+
+<script type="text/javascript">
+  var Time = "3/01/2019 00:00:00";
+  setInterval(function() { countDown(".timer", Time) }, 1000);
+</script>
 
 </body>
 </html>
