@@ -103,8 +103,9 @@ footer {
     letter-spacing: 1px;
     font-size: 12px;
     padding: 14px 42px;
-    margin-top: 42px;
-    margin-right: 12px;
+    margin: 15rem auto 0 auto;
+		display: block;
+		width: 230px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
@@ -292,6 +293,66 @@ footer {
 
 #intro h3 {
   letter-spacing: 2px;
+}
+
+.havener-link {
+	text-decoration: underline !important;
+	color: rgb(255,255,255);
+	transition: all linear 0.2s;
+}
+
+.havener-link:hover {
+	color: rgba(255,255,255, 0.65);
+}
+
+.timer{
+  font-weight: 100;
+  font-size: 2em;
+	line-height: initial;
+	width: 350px;
+	margin: 3.5rem auto;
+}
+.timer span{
+  display: block;
+  min-width: 80px;
+  float: left;
+  margin-right: 10px;
+  background: #ddd;
+  padding: 5px;
+  text-align: center;
+  border-radius: 3px;
+}
+.timer span:last-child {
+	margin-right: 0;
+}
+.timer small{
+  display: block;
+  font-size: .5em;
+}
+.timer .days{
+  color: #65ada2;
+}
+.timer .hours{
+  color: #da6665;
+}
+.timer .minutes{
+  color: #adb87a;
+}
+.timer .seconds{
+  color: #916c80;
+  animation: removeText 1s forwards;
+}
+
+@keyframes removeText{
+  0%{
+    margin-top: 0;
+  }
+  80%{
+    margin-top: 0;
+  }
+  100%{
+    margin-top: -10px;
+  }
 }
 
 
@@ -712,8 +773,6 @@ footer {
 	line-height: 20px;
   }
 
-  #intro { height: 65vh; }
-
   #video iframe {
     margin-top: 42px;
   }
@@ -723,6 +782,18 @@ footer {
   padding: 10rem 3rem 10rem 5rem;
 }
 
+}
+
+@media (min-width: 768px) {
+	.custom-navbar .navbar-brand {
+		line-height: 20px;
+	}
+}
+
+@media (min-width: 980px) {
+	.custom-navbar .navbar-brand {
+		line-height: 40px;
+	}
 }
 
 @media (max-width: 768px) {
