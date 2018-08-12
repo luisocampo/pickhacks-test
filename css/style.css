@@ -330,16 +330,20 @@ footer {
   font-size: .5em;
 }
 .timer .days{
-  color: #65ada2;
+	background-color: #036084;
+  color: white;
 }
 .timer .hours{
-  color: #da6665;
+	color: white;
+  background-color: #78BE20;
 }
 .timer .minutes{
-  color: #adb87a;
+	background-color: #036084;
+  color: white;
 }
 .timer .seconds{
-  color: #916c80;
+	color: white;
+  background-color: #78BE20;
   animation: removeText 1s forwards;
 }
 
@@ -403,7 +407,13 @@ footer {
    Speakers section
 -----------------------------------------*/
 #speakers {
-    background: #78BE20;
+    background: #036084;
+		clip-path: polygon(
+	    0 3vw,
+	    100% 0,
+	    100% 100%,
+	    0 calc(100% - 3vw)
+	  );
 }
 
 #speakers h3 {
@@ -424,10 +434,13 @@ footer {
 
 #speakers .col-md-3 {
     display: block;
-    width: 100%;
     padding-top: 30px;
     padding-bottom: 20px;
     margin-bottom: 22px;
+}
+
+#speakers .row > div {
+	margin-bottom: 3rem;
 }
 
 #speakers .speakers-wrapper {
@@ -509,6 +522,15 @@ footer {
 /*---------------------------------------
    Program section
 -----------------------------------------*/
+#program {
+	clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 6vw)
+  );
+}
+
 #program h4 {
     color: #005F83;
     font-size: 12px;
@@ -630,7 +652,6 @@ footer {
 /*---------------------------------------
    Sponsors section
 -----------------------------------------*/
-
 #sponsors img {
   margin-top: 18px;
 }
@@ -823,6 +844,11 @@ footer {
   #contact .contact_detail {
     margin-top: 82px;
   }
+
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
 
 }
 
