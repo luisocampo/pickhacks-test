@@ -74,7 +74,7 @@ a {
 #speakers,
 #program,
 #sponsors,
-#contact, footer {
+#contact {
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
@@ -131,8 +131,7 @@ footer {
 }
 
 #intro .btn-default:hover {
-    background: #ffffff;
-    color: #333333;
+    background: #fed132;
     border-color: transparent;
 }
 
@@ -206,6 +205,11 @@ footer {
     line-height: 40px;
 }
 
+.custom-navbar .navbar-brand img {
+	height: inherit;
+	display: inline;
+}
+
 .custom-navbar .nav li a {
     color: #ddd;
     font-size: 12px;
@@ -218,7 +222,7 @@ footer {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #66ccff;
+    color: #fed132;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -228,7 +232,7 @@ footer {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #66ccff;
+    color: #fed132;
 }
 
 .custom-navbar .navbar-toggle {
@@ -344,7 +348,6 @@ footer {
 .timer .seconds{
 	color: white;
   background-color: #78BE20;
-  animation: removeText 1s forwards;
 }
 
 @keyframes removeText{
@@ -575,7 +578,7 @@ footer {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #f2545f;
+  color: #fed132;
   cursor: default;
   background-color: transparent;
   border: 1px solid transparent;
@@ -717,9 +720,20 @@ footer {
 -----------------------------------------*/
 footer {
   background-attachment: fixed;
+	background: #fed132;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+  clip-path: polygon(
+	 0 3vw,
+	 100% 0,
+	 100% 100%,
+	 0 100%
+	 );
 }
 
-
+footer p {
+	font-weight: bolder;
+}
 
 /* Back top */
 .go-top {
@@ -772,7 +786,7 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #f2545f;
+    background: #036084;
     color: #ffffff;
 }
 
@@ -787,6 +801,7 @@ footer {
 
   .custom-navbar .navbar-brand {
     font-size: 2rem;
+		padding: 0 15px;
   }
 
   .custom-navbar .nav li a {
@@ -821,6 +836,7 @@ footer {
 
   .custom-navbar .navbar-brand {
     line-height: 20px;
+		padding: 0 15px;
   }
 
   #overview img,
