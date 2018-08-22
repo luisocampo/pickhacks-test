@@ -12,6 +12,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
 		font-weight: 400;
+		overflow-x: hidden;
 }
 
 
@@ -290,11 +291,15 @@ footer {
     }
 
 		.emerson {
-			margin-right: -100px;
+			margin-right: -130px;
 		}
 
 		.bronze {
-			margin-right: -100px;
+			margin-right: -450px;
+		}
+
+		.mastercard img {
+			width: 100%;
 		}
 
 }
@@ -582,8 +587,6 @@ footer {
 
 #program .program-divider {
     border: 1px solid #f9f9f9;
-    margin-top: 32px;
-    margin-bottom: 42px;
 }
 
 #program span {
@@ -625,6 +628,15 @@ footer {
   padding-top: 20px;
 }
 
+.date-container {
+	display: flex;
+}
+
+.date-container h6 {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
 
 
 /*---------------------------------------
