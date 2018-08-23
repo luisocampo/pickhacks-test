@@ -67,8 +67,7 @@ a {
 
 #overview,
 #register {
-  padding-top: 14rem;
-  padding-bottom: 14rem;
+  padding-bottom: 4rem;
 }
 
 #detail, #video,
@@ -422,6 +421,42 @@ footer {
   padding-bottom: 32px;
 }
 
+.info {
+	width: 70%;
+	padding-top: 70%;
+	margin-top: 3rem;
+	position: relative;
+	border-radius: 100%;
+}
+
+.info h2 {
+	position: absolute;
+	top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+	font-size: 1.6rem;
+}
+
+@media (min-width: 768px) {
+	.info h2 {
+		font-size: 1.6rem;
+	}
+}
+
+@media (min-width: 991px) {
+	.info h2 {
+		font-size: 2.25rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.info h2 {
+		font-size: 2.75rem;
+	}
+}
 
 
 /*---------------------------------------
@@ -771,7 +806,6 @@ footer {
   background-attachment: fixed;
 	background: #fed132;
 	padding-top: 5rem;
-	padding-bottom: 5rem;
   clip-path: polygon(
 	 0 3vw,
 	 100% 0,
