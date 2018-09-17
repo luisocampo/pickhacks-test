@@ -283,18 +283,6 @@ footer {
         padding: 0;
     }
 
-		.emerson {
-			margin-right: -130px;
-		}
-
-		.bronze {
-			margin-right: -450px;
-		}
-
-		.mastercard img {
-			width: 100%;
-		}
-
 }
 
 
@@ -412,6 +400,11 @@ footer {
 #overview img {
   position: relative;
   padding-bottom: 32px;
+}
+
+#overview {
+	padding-top: 8rem;
+	padding-bottom: 8rem;
 }
 
 .info {
@@ -759,46 +752,79 @@ footer {
 /*---------------------------------------
    Sponsors section
 -----------------------------------------*/
-#sponsors img {
-  margin-top: 18px;
+#sponsors h3 {
+	text-transform: uppercase;
 }
 
 #sponsors .container {
 	width: 80%;
 }
 
-@media (max-width: 991px) {
-	.bronze {
-		margin-left: -60px;
-		max-width:
+#sponsors .platinum .image-container {
+	width: 45%;
+}
+
+#sponsors .platinum .image-container:first-child {
+	float:left;
+}
+
+#sponsors .platinum .image-container:last-child {
+	float:right;
+}
+
+#sponsors .image-container img {
+	width: 100%;
+}
+
+#sponsors .gold .image-container {
+	width: 35%;
+	display:inline-block;
+}
+
+#sponsors .gold .image-container:first-child {
+	float:left;
+	margin-left: 10%;
+}
+
+#sponsors .silver .image-container {
+	width: 20%;
+	display: inline-block;
+	margin-right: 6%;
+}
+
+#sponsors .silver .image-container:first-child {
+	margin-left: 5%;
+}
+
+#sponsors .up img {
+	width: 40%;
+}
+
+#sponsors .bronze .image-container {
+	width: 100%;
+	display: block;
+	height: inherit;
+	margin-top: -1.25rem;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	#sponsors .bronze .image-container {
+		width: 100%;
+		margin-left: auto;
 	}
 }
 
-@media (max-width: 850px) {
-	.bronze {
-		margin-left: -80px;
-	}
-	.mastercard {
-		margin-left: -30px;
-	}
-	.up {
-		margin-left: -20px;
-	}
+#sponsors .bronze .image-container img {
+	height: 40px;
+	width: auto;
+	margin-left: auto;
 }
 
-@media (max-width: 768px) {
-	.bronze {
-		margin-left: 0;
-	}
-	.mastercard {
-		margin-left: 16.66666667%;
-	}
-	.up {
-		margin-left: 33.33333333%;
-	}
-	.jet {
-		clear: both;
-	}
+
+#sponsors .silver .image-container.master,
+#sponsors .silver .image-container.up {
+	margin-right: 0;
 }
 
 /*---------------------------------------
