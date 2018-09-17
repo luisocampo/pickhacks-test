@@ -61,6 +61,17 @@ a {
 /*---------------------------------------
     General
 -----------------------------------------*/
+#mlh-trust-badge {
+	display:block;
+	max-width:100px;
+	min-width:60px;
+	position:fixed;
+	right:50px;
+	top:0;
+	width:10%;
+	z-index:10000;
+}
+
 .section-title {
   margin-bottom: 32px;
 }
@@ -100,7 +111,7 @@ footer {
     padding: 14px 42px;
     margin: 3rem auto 0 auto;
 		display: block;
-		width: 230px;
+		width: 255px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
