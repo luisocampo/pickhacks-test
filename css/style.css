@@ -62,6 +62,10 @@ a {
 /*---------------------------------------
     General
 -----------------------------------------*/
+.shown {
+	display: none !important;
+}
+
 .section-title {
 	margin-bottom: 2.5rem;
 }

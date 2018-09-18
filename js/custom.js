@@ -2,7 +2,7 @@
  /* jQuery Pre loader
   -----------------------------------------------*/
 $(window).load(function(){
-    $('.preloader').fadeOut(1000); // set duration in brackets    
+    $('.preloader').fadeOut(1000); // set duration in brackets
 });
 
 
@@ -11,13 +11,15 @@ $(window).load(function(){
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
+        $(".navbar-brand").removeClass("shown");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $(".navbar-brand").addClass("shown");
     }
 });
 
 
-/* HTML document is loaded. DOM is ready. 
+/* HTML document is loaded. DOM is ready.
 -------------------------------------------*/
 $(document).ready(function() {
 
@@ -70,7 +72,7 @@ $(document).ready(function() {
         } else {
           $('.go-top').fadeOut(200);
         }
-        });   
+        });
         // Animate the scroll to top
       $('.go-top').click(function(event) {
         event.preventDefault();
@@ -83,4 +85,3 @@ $(document).ready(function() {
   new WOW({ mobile: false }).init();
 
   });
-
