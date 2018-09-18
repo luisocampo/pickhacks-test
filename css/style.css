@@ -1,6 +1,7 @@
 /*
 
-Created by Luis Ocampo
+Created by Dylan Burr &
+					 Luis Ocampo
 
 Based off the "New Event" template:
 http://www.templatemo.com/tm-486-new-event
@@ -61,6 +62,10 @@ a {
 /*---------------------------------------
     General
 -----------------------------------------*/
+.section-title {
+	margin-bottom: 2.5rem;
+}
+
 @media (max-width: 800px) {
 	.cd-nav-trigger {
 		display: none !important;
@@ -83,8 +88,8 @@ a {
 #program,
 #sponsors,
 #contact {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 #detail,
@@ -323,11 +328,11 @@ footer {
 		line-height: 200px;
 
 		clip-path: polygon(
-    0 0,
-    100% 0,
-    100% 100%,
-    0 93%
-  );
+	    0 0,
+	    100% 0,
+	    100% 100%,
+	    0 calc(100% - 3vw)
+	  );
 
 }
 
@@ -347,21 +352,30 @@ footer {
 
 .timer{
   font-weight: 100;
-  font-size: 3em;
+  font-size: 2em;
 	line-height: initial;
-	width: 395px;
-	margin: 2rem auto;
-	height: calc(94.4px + 2rem);
+	width: 95%;
+	margin: 2rem 2.5%;
+	display: flex;
 	border: 2px solid white;
 	padding: 1rem;
 }
+@media (min-width: 550px) {
+	.timer {
+		font-size: 2.5em;
+	}
+}
+@media (min-width: 991px) {
+	.timer {
+		font-size: 4.5em;
+	}
+}
 .timer span{
   display: block;
-  min-width: 80px;
   float: left;
   background: #ddd;
   text-align: center;
-	margin-right: calc(65px / 4);
+	width: 25%;
 }
 .timer span:last-child {
 	margin-right: 0;
@@ -436,14 +450,34 @@ footer {
 	margin-top: 0;
 	margin-bottom: 0;
 	color: white;
-	font-size: 1.3rem;
+	font-size: 0.8rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 450px) {
+	.info h2 {
+		font-size: 1.15rem;
+	}
+}
+
+@media (min-width: 530px) {
+	.info h2 {
+		font-size: 1.4rem;
+	}
+}
+
+@media (min-width: 650px) {
+	.info h2 {
+		font-size: 1.6rem;
+	}
+}
+
+@media (min-width: 700px) {
 	.info h2 {
 		font-size: 1.75rem;
 	}
+}
 
+@media (min-width: 768px) {
 	.info-offset {
 		margin-left: calc(100% - 75% - (6 * 15px));
 	}
@@ -551,11 +585,11 @@ footer {
   padding-bottom: 8rem;
 
 	clip-path: polygon(
-    0 7%,
-    100% 0,
-    100% 100%,
-    0 calc(100% - 3vw)
-  );
+		0 3vw,
+		100% 0,
+		100% 100%,
+		0 calc(100% - 3vw)
+	);
 }
 
 #faq .panel-group {
@@ -770,6 +804,39 @@ footer {
 	font-weight: bold;
 }
 
+#sponsors .supporters {
+	margin-top: 6rem;
+}
+
+#sponsors .supporters .row {
+	margin-top: 6rem;
+}
+
+@media (max-width: 550px) {
+	#sponsors h3 {
+		font-size: 2rem;
+		margin-top: 0.1rem;
+		margin-bottom: 0.1rem;
+	}
+	#sponsors .supporters {
+		margin-top: 1rem;
+	}
+
+	#sponsors .supporters .row {
+		margin-top: 1rem;
+	}
+
+	#sponsors .row {
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 400px) {
+	#sponsors h3 {
+		font-size: 1.25rem;
+	}
+}
+
 #sponsors .container {
 	width: 80%;
 }
@@ -803,7 +870,7 @@ footer {
 #sponsors .silver .image-container {
 	width: 20%;
 	display: inline-block;
-	margin-right: 6%;
+	margin-right: 5%;
 }
 
 #sponsors .silver .image-container:first-child {

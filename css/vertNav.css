@@ -164,7 +164,7 @@ Vertical navigation
 @media only screen and (min-width: 800px) {
   .cd-vertical-nav {
     /* reset style */
-    right: 0;
+    left: 0;
     top: 0;
     bottom: auto;
     height: 100vh;
@@ -189,11 +189,11 @@ Vertical navigation
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.8);
-    -webkit-transform: translateX(100%);
-    -moz-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    -o-transform: translateX(100%);
-    transform: translateX(100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
     -webkit-transition: -webkit-transform 0.4s;
     -moz-transition: -moz-transform 0.4s;
     transition: transform 0.4s;
@@ -333,6 +333,36 @@ Vertical navigation
     -o-transform: translateX(-50%) translateY(-4.5em) scale(0.25);
     transform: translateX(-50%) translateY(-4.5em) scale(0.25);
   }
+  .cd-vertical-nav li:nth-of-type(5) a::after {
+    background-position: 0px 0px;
+    -webkit-transform: translateX(-50%) translateY(-7.5em) scale(0.01);
+    -moz-transform: translateX(-50%) translateY(-7.5em) scale(0.01);
+    -ms-transform: translateX(-50%) translateY(-7.5em) scale(0.01);
+    -o-transform: translateX(-50%) translateY(-7.5em) scale(0.01);
+    transform: translateX(-50%) translateY(-7.5em) scale(0.01);
+  }
+  .cd-vertical-nav li:nth-of-type(5) a::before {
+    -webkit-transform: translateX(-50%) translateY(-7.5em) scale(0.25);
+    -moz-transform: translateX(-50%) translateY(-7.5em) scale(0.25);
+    -ms-transform: translateX(-50%) translateY(-7.5em) scale(0.25);
+    -o-transform: translateX(-50%) translateY(-7.5em) scale(0.25);
+    transform: translateX(-50%) translateY(-7.5em) scale(0.25);
+  }
+  .cd-vertical-nav li:nth-of-type(6) a::after {
+    background-position: 0px 0px;
+    -webkit-transform: translateX(-50%) translateY(-10.5em) scale(0.01);
+    -moz-transform: translateX(-50%) translateY(-10.5em) scale(0.01);
+    -ms-transform: translateX(-50%) translateY(-10.5em) scale(0.01);
+    -o-transform: translateX(-50%) translateY(-10.5em) scale(0.01);
+    transform: translateX(-50%) translateY(-10.5em) scale(0.01);
+  }
+  .cd-vertical-nav li:nth-of-type(6) a::before {
+    -webkit-transform: translateX(-50%) translateY(-10.5em) scale(0.25);
+    -moz-transform: translateX(-50%) translateY(-10.5em) scale(0.25);
+    -ms-transform: translateX(-50%) translateY(-10.5em) scale(0.25);
+    -o-transform: translateX(-50%) translateY(-10.5em) scale(0.25);
+    transform: translateX(-50%) translateY(-10.5em) scale(0.25);
+  }
   .cd-vertical-nav .label {
     display: block;
     /* Force Hardware Acceleration */
@@ -343,11 +373,11 @@ Vertical navigation
     -ms-transform: translateZ(0);
     -o-transform: translateZ(0);
     transform: translateZ(0);
-    -webkit-transform: translateX(100%);
-    -moz-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    -o-transform: translateX(100%);
-    transform: translateX(100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
     -webkit-transition: -webkit-transform 0.4s;
     -moz-transition: -moz-transform 0.4s;
     transition: transform 0.4s;
