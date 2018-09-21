@@ -211,7 +211,6 @@ footer {
 -----------------------------------------*/
 .custom-navbar {
     margin-bottom: 0;
-    background-color: #101010;
 }
 
 .custom-navbar .container {
@@ -300,11 +299,11 @@ footer {
         border-bottom: 0;
         background: 0 0;
     }
-    .custom-navbar.top-nav-collapse {
-        background: #101010;
-        padding: 0;
-    }
 
+}
+.custom-navbar.top-nav-collapse {
+		background: #101010;
+		padding: 0;
 }
 
 
@@ -849,11 +848,11 @@ footer {
 	width: 45%;
 }
 
-#sponsors .platinum .image-container:first-child {
+#sponsors .platinum a:first-child .image-container {
 	float:left;
 }
 
-#sponsors .platinum .image-container:last-child {
+#sponsors .platinum a:last-child .image-container {
 	float:right;
 }
 
@@ -866,7 +865,7 @@ footer {
 	display:inline-block;
 }
 
-#sponsors .gold .image-container:first-child {
+#sponsors .gold a:first-child .image-container {
 	float:left;
 	margin-left: 10%;
 }
@@ -877,7 +876,7 @@ footer {
 	margin-right: 5%;
 }
 
-#sponsors .silver .image-container:first-child {
+#sponsors .silver a:first-child .image-container {
 	margin-left: 5%;
 }
 
@@ -899,8 +898,14 @@ footer {
 	margin-right: 8%;
 }
 
-#sponsors .partners .image-container:last-child {
+#sponsors .partners a:last-child .image-container, #sponsors .partners > .image-container:last-child {
 	margin-right: 0;
+}
+
+#sponsors .last .image-container:first-child,
+#sponsors .last .image-container:nth-child(2),
+#sponsors .last .image-container:nth-child(3) {
+	margin-right: 11%;
 }
 
 @media (min-width: 768px) {
