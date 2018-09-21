@@ -1,4 +1,4 @@
-var countDown = function(theSelector, time){
+  var countDown = function(theSelector, time){
 	var output = "";
 	var dTime = Date.parse(time);
   var theDate = Date.parse(new Date());
@@ -21,9 +21,9 @@ var countDown = function(theSelector, time){
   x /= 24;
   days = addZero(parseInt(x));
 
-  output += "<span class='days'>" + days + "<small>Days</small></span>";
-  output += "<span class='hours'>" + hours + "<small>Hours</small></span>";
-  output += "<span class='minutes'>" + minutes + "<small>Mins</small></span>";
-  output += "<span class='seconds'>" + seconds + "<small>Secs</small></span>";
+  output += "<span class='days'>" + days + "<i class='small' style='font-size: 1rem; display: block'>Days</i></span>";
+  output += "<span class='hours'>" + hours + "<i class='small' style='font-size: 1rem; display: block'>Hours</i></span>";
+  output += "<span class='minutes'>" + minutes + "<i class='small' style='font-size: 1rem; display: block'>Mins</i></span>";
+  output += "<span class='seconds'>" + seconds + "<i class='small' style='font-size: 1rem; display: block'>Secs</i></span>";
   document.querySelector(theSelector).innerHTML = output;
 }

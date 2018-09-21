@@ -362,7 +362,6 @@ footer {
 
 .timer{
   font-weight: 100;
-  font-size: 2em;
 	line-height: initial;
 	width: 95%;
 	margin: 2rem 2.5%;
@@ -370,14 +369,17 @@ footer {
 	border: 2px solid white;
 	padding: 1rem;
 }
+.timer span {
+	font-size: 2em;
+}
 @media (min-width: 550px) {
-	.timer {
-		font-size: 2.5em;
+	.timer span {
+		font-size: 3.5em;
 	}
 }
 @media (min-width: 991px) {
-	.timer {
-		font-size: 4.5em;
+	.timer span {
+		font-size: 5.5em;
 	}
 }
 .timer span{
@@ -386,13 +388,10 @@ footer {
   background: #ddd;
   text-align: center;
 	width: 25%;
+	font-weight: bolder;
 }
 .timer span:last-child {
 	margin-right: 0;
-}
-.timer small{
-  display: block;
-  font-size: .5em;
 }
 .timer .days{
 	background-color: transparent;
@@ -409,6 +408,10 @@ footer {
 .timer .seconds{
 	color: white;
   background-color: transparent;
+}
+.timeWrap {
+	display: flex;
+	flex-direction: column;
 }
 
 @keyframes removeText{

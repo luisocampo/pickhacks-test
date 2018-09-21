@@ -243,6 +243,7 @@ Vertical navigation
     width: 32px;
     border-radius: 50%;
     background: #eaf2e3;
+    box-shadow: 1px 1px 20px black;
     -webkit-transform: translateX(-50%) scale(0.25);
     -moz-transform: translateX(-50%) scale(0.25);
     -ms-transform: translateX(-50%) scale(0.25);
@@ -269,7 +270,7 @@ Vertical navigation
     transition: transform 0.4s 0s, opacity 0.1s 0.3s;
   }
   .cd-vertical-nav a.active::before, .no-touch .cd-vertical-nav a:hover::before {
-    background-color: #c0a672;
+    background-color: #fed132;
   }
   .cd-vertical-nav li:first-of-type a::after {
     /* change icon using image sprites */
