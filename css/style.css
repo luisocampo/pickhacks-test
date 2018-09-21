@@ -369,6 +369,10 @@ footer {
 	border: 2px solid white;
 	padding: 1rem;
 }
+.small {
+	font-size: 0.75rem !important;
+	font-style: none !important;
+}
 .timer span {
 	font-size: 2em;
 }
@@ -376,10 +380,16 @@ footer {
 	.timer span {
 		font-size: 3.5em;
 	}
+	.small {
+		font-size: 1.5rem !important;
+	}
 }
 @media (min-width: 991px) {
 	.timer span {
 		font-size: 5.5em;
+	}
+	.small {
+		font-size: 1.75rem !important;
 	}
 }
 .timer span{

@@ -21,9 +21,9 @@
   x /= 24;
   days = addZero(parseInt(x));
 
-  output += "<span class='days'>" + days + "<i class='small' style='font-size: 1rem; display: block'>Days</i></span>";
-  output += "<span class='hours'>" + hours + "<i class='small' style='font-size: 1rem; display: block'>Hours</i></span>";
-  output += "<span class='minutes'>" + minutes + "<i class='small' style='font-size: 1rem; display: block'>Mins</i></span>";
-  output += "<span class='seconds'>" + seconds + "<i class='small' style='font-size: 1rem; display: block'>Secs</i></span>";
+  output += "<span class='days'>" + days + "<i class='small' style='display: block'>Days</i></span>";
+  output += "<span class='hours'>" + hours + "<i class='small' style='display: block'>Hours</i></span>";
+  output += "<span class='minutes'>" + minutes + "<i class='small' style='display: block'>Mins</i></span>";
+  output += "<span class='seconds'>" + seconds + "<i class='small' style='display: block'>Secs</i></span>";
   document.querySelector(theSelector).innerHTML = output;
 }
