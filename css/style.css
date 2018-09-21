@@ -322,16 +322,15 @@ footer {
     background-position: center center;
 		background-color: #222;
     color: #ffffff;
-    display: -webkit-box;
-    display: -webkit-flex;
-     display: -ms-flexbox;
-    display: flex;
+    display:table-cell;
+		vertical-align: middle;
+		text-align: center;
+		width: 100vw;
     -webkit-box-align: center;
      -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
     height: 115vh;
-    text-align: center;
 		line-height: 200px;
 
 		clip-path: polygon(
@@ -345,6 +344,10 @@ footer {
 
 #intro h3 {
   letter-spacing: 2px;
+}
+
+#intro .container {
+	display: inline-block;
 }
 
 .havener-link {
