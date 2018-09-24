@@ -837,7 +837,7 @@ footer {
 }
 
 #sponsors .supporters .row {
-	margin-top: 6rem;
+	margin-top: 4rem;
 }
 
 @media (max-width: 550px) {
@@ -896,25 +896,31 @@ footer {
 }
 
 #sponsors .silver .image-container {
-	width: 20%;
+	width: 25%;
 	display: inline-block;
 	margin-right: 5%;
 }
 
 #sponsors .silver a:first-child .image-container {
-	margin-left: 5%;
-}
-
-#sponsors .up img {
-	width: 40%;
+	float: left;
+  margin-left: 20%;
+  margin-right: -9%;
 }
 
 #sponsors .bronze .image-container {
-	width: 100%;
-	display: block;
-	height: inherit;
+	width: 13%;
+	display: inline-block;
 	margin-top: -1.25rem;
 	text-align: center;
+}
+
+#sponsors .bronze a:first-child .image-container {
+	float: left;
+}
+
+#sponsors .bronze a:first-child .image-container,
+#sponsors .bronze a:last-child .image-container {
+	width: 5%;
 }
 
 #sponsors .partners .image-container {
@@ -923,27 +929,12 @@ footer {
 	margin-right: 8%;
 }
 
+#sponsors .partners.first .image-container {
+	margin-right: 15%;
+}
+
 #sponsors .partners a:last-child .image-container, #sponsors .partners > .image-container:last-child {
 	margin-right: 0;
-}
-
-#sponsors .last .image-container:first-child,
-#sponsors .last .image-container:nth-child(2),
-#sponsors .last .image-container:nth-child(3) {
-	margin-right: 11%;
-}
-
-@media (min-width: 768px) {
-	#sponsors .bronze .image-container {
-		width: 100%;
-		margin-left: auto;
-	}
-}
-
-#sponsors .bronze .image-container img {
-	height: 40px;
-	width: auto;
-	margin-left: auto;
 }
 
 
