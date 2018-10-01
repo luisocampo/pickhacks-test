@@ -901,15 +901,15 @@ footer {
 }
 
 #sponsors .silver .image-container {
-	width: 25%;
+	width: 15%;
 	display: inline-block;
 	margin-right: 5%;
 }
 
 #sponsors .silver a:first-child .image-container {
 	float: left;
-  margin-left: 20%;
-  margin-right: -9%;
+  margin-left: 30%;
+  margin-right: -19%;
 }
 
 #sponsors .bronze .image-container {
