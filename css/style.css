@@ -318,8 +318,8 @@ footer {
 -----------------------------------------*/
 #intro {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
-    -webkit-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
     background-position: center center;
 		background-color: #222;
     color: #ffffff;
