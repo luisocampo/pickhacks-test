@@ -318,8 +318,8 @@ footer {
 -----------------------------------------*/
 #intro {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: contain;
+    background-size: contain;
     background-position: center center;
 		background-color: #222;
     color: #ffffff;
@@ -901,19 +901,19 @@ footer {
 }
 
 #sponsors .silver .image-container {
-	width: 15%;
+	width: 18%;
 	display: inline-block;
 	margin-right: 5%;
 }
 
 #sponsors .silver a:first-child .image-container {
 	float: left;
-  margin-left: 30%;
-  margin-right: -19%;
+  margin-left: 27%;
+  margin-right: -15%;
 }
 
 #sponsors .bronze .image-container {
-	width: 13%;
+	width: 11%;
 	display: inline-block;
 	margin-top: -1.25rem;
 	text-align: center;
