@@ -949,6 +949,57 @@ footer {
 	margin-right: 0;
 }
 
+@media (max-width: 768px) {
+	#sponsors .platinum a:first-child .image-container {
+		float: none;
+	}
+
+	#sponsors .platinum .image-container {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: -5rem;
+		margin-top: -5rem;
+	}
+
+	#sponsors .platinum a:nth-child(2) .image-container {
+		margin-bottom: 0;
+	}
+
+	#sponsors .platinum a:last-child .image-container {
+		float: none;
+	}
+
+	#sponsors .gold .image-container {
+		width: 45%;
+	}
+
+	#sponsors .gold a:first-child .image-container {
+		margin-left: 0;
+	}
+
+	.gold a:nth-child(2) .image-container {
+		float: right;
+	}
+
+	#sponsors .silver .image-container {
+		width: 25%;
+	}
+
+	#sponsors .bronze .image-container {
+		width: 15%;
+	}
+
+	#sponsors .silver a:first-child .image-container {
+		margin-left: 21%;
+	}
+
+	#sponsors .silver a:last-child .image-container {
+		width: 30% !important;
+		margin-left: 9% !important;
+	}
+}
+
 /*---------------------------------------
    Contact section
 -----------------------------------------*/
