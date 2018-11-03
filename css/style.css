@@ -838,30 +838,11 @@ footer {
 	font-weight: bold;
 }
 
-#sponsors .supporters {
-	margin-top: 6rem;
-}
-
-#sponsors .supporters .row {
-	margin-top: 4rem;
-}
-
 @media (max-width: 550px) {
 	#sponsors h3 {
 		font-size: 2rem;
 		margin-top: 0.1rem;
 		margin-bottom: 0.1rem;
-	}
-	#sponsors .supporters {
-		margin-top: 1rem;
-	}
-
-	#sponsors .supporters .row {
-		margin-top: 1rem;
-	}
-
-	#sponsors .row {
-		margin-bottom: 0;
 	}
 }
 
@@ -875,130 +856,215 @@ footer {
 	width: 80%;
 }
 
-#sponsors .platinum .image-container {
+#sponsors .industry {
+	padding-top: 1.5rem;
+}
+
+#sponsors .industry .image-container {
+	width: 60%;
+}
+
+#sponsors .industry .image-container.centene {
+	float: left;
 	width: 45%;
+	margin-top: 8%;
+	margin-left: 5%;
 }
 
-#sponsors .platinum a:first-child .image-container {
-	float:left;
-}
-
-#sponsors .platinum a:last-child .image-container {
-	float:right;
-}
-
-#sponsors .image-container img {
-	width: 100%;
-}
-
-#sponsors .gold .image-container {
+#sponsors .industry .image-container.panera {
 	width: 35%;
-	display:inline-block;
-}
-
-#sponsors .gold a:first-child .image-container {
-	float:left;
-	margin-left: 10%;
-}
-
-#sponsors .silver .image-container {
-	width: 18%;
-	display: inline-block;
+	margin-top: -5%;
+	float: right;
 	margin-right: 5%;
 }
 
-#sponsors .silver a:first-child .image-container {
-	float: left;
-  margin-left: 27%;
-  margin-right: -15%;
+#sponsors .industry .image-container.es {
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-#sponsors .bronze .image-container {
-	width: 11%;
+#sponsors .industry-mid .image-container {
+	width: 35%;
+}
+
+.tradebot {
+	float: left;
+	margin-top: 7%;
+	margin-left: 11%;
+}
+
+.mixmax {
+	float: right;
+	margin-top: 5%;
+	margin-right: 11%;
+}
+
+#sponsors .industry-other .image-container {
+	width: 30%;
 	display: inline-block;
-	margin-top: -1.25rem;
-	text-align: center;
+	margin-top: 5%;
 }
 
-#sponsors .bronze a:first-child .image-container {
+#sponsors .industry-other .image-container.master {
 	float: left;
+	margin-top: 6%;
 }
 
-#sponsors .bronze a:first-child .image-container,
-#sponsors .bronze a:last-child .image-container {
-	width: 5%;
+#sponsors .industry-other .image-container.edward {
+	float: right;
+	margin-top: 7%;
+}
+
+#sponsors .industry-other .image-container.labs {
+	width: 22%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 10%;
+	margin-top: 3%;
+}
+
+#sponsors .industry-other .image-container.rr {
+	float: left;
+	width: 27%;
+	margin-top: 2%;
+}
+
+#sponsors .industry-other .image-container.hw {
+	float: right;
+	display: block;
+	width: 27%;
+	margin-right: 2%;
+	margin-top: 2%;
+}
+
+#sponsors .row-container {
+	width: 100%;
+}
+
+#sponsors .industry-other .image-container.git {
+	float: left;
+	width: 15%;
+	clear: both;
+	margin-left: 8%;
+	margin-top: 3%;
+}
+
+#sponsors .industry-other .image-container.emerson {
+	width: 25%;
+	margin-top: 3%;
+	margin-left: 5%;
+}
+
+#sponsors .industry-other .image-container.eng {
+	float: right;
+	width: 27%;
+	margin-right: 2%;
+	margin-top: 1%;
+}
+
+#sponsors .industry-small .image-container {
+	width: 17%;
+	display: inline-block;
+	margin-top: 5%;
+}
+
+#sponsors .industry-small .image-container.balsamiq {
+	clear: both;
+	float: left;
+	margin-left: 23%;
+	width: 12%;
+	margin-right: 6%;
+}
+
+#sponsors .industry-small .image-container.brewer {
+	float: left;
+	margin-top: 4%;
+}
+
+#sponsors .industry-small .image-container.cs {
+	float: right;
+	margin-right: 20%;
+	margin-top: 4%;
+}
+
+#sponsors .industry-small .image-container.coab {
+	float: left;
+	clear: both;
+	margin-left: 29%;
+	margin-top: 2%;
+}
+
+#sponsors .industry-small .image-container.it {
+	float: right;
+	width: 18%;
+	margin-right: 29%;
+	margin-top: 1.5%;
+}
+
+#sponsors hr {
+	clear: both;
+	width: 70%;
+	margin-top: 26rem;
+	border: 0.5px solid #036084;
 }
 
 #sponsors .partners .image-container {
-	width: 13%;
+	width: 15%;
 	display: inline-block;
-	margin-right: 12%;
+	margin-top: 2%;
 }
 
-#sponsors .partners.first .image-container {
-	margin-right: 15%;
+#sponsors .partners .image-container.mlh {
+	float: left;
+	margin-left: 7%;
+	margin-top: 3%;
 }
 
-#sponsors .partners a:last-child .image-container, #sponsors .partners > .image-container:last-child {
-	margin-right: 0;
+#sponsors .partners .image-container.acm {
+	float: left;
+	width: 8%;
+	margin-left: 11%;
 }
 
-
-#sponsors .silver .image-container.master,
-#sponsors .silver .image-container.up {
-	margin-right: 0;
+#sponsors .partners .image-container.acm-w {
+	float: left;
+	margin-left: 11%;
 }
 
-@media (max-width: 768px) {
-	#sponsors .platinum a:first-child .image-container {
-		float: none;
-	}
-
-	#sponsors .platinum .image-container {
-		width: 80%;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: -5rem;
-		margin-top: -5rem;
-	}
-
-	#sponsors .platinum a:nth-child(2) .image-container {
-		margin-bottom: 0;
-	}
-
-	#sponsors .platinum a:last-child .image-container {
-		float: none;
-	}
-
-	#sponsors .gold .image-container {
-		width: 45%;
-	}
-
-	#sponsors .gold a:first-child .image-container {
-		margin-left: 0;
-	}
-
-	.gold a:nth-child(2) .image-container {
-		float: right;
-	}
-
-	#sponsors .silver .image-container {
-		width: 25%;
-	}
-
-	#sponsors .bronze .image-container {
-		width: 15%;
-	}
-
-	#sponsors .silver a:first-child .image-container {
-		margin-left: 21%;
-	}
-
-	#sponsors .silver a:last-child .image-container {
-		width: 30% !important;
-		margin-left: 9% !important;
-	}
+#sponsors .partners .image-container.jet {
+	float: right;
+	margin-right: 7%;
 }
+
+#sponsors .partners .image-container.tech {
+	clear: both;
+	float: left;
+	margin-left: 7%;
+}
+
+#sponsors .partners .image-container.wolfram {
+	float: left;
+	margin-left: 7%;
+	margin-top: 3%;
+}
+
+#sponsors .partners .image-container.sketch {
+	float: left;
+	margin-left: 7%;
+}
+
+#sponsors .partners .image-container.do {
+	float: right;
+	margin-right: 5%;
+	width: 20%;
+	margin-top: 4%;
+}
+
+#sponsors img {
+	width: 100%;
+}
+
 
 /*---------------------------------------
    Contact section
