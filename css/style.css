@@ -867,13 +867,13 @@ footer {
 #sponsors .industry .image-container.centene {
 	float: left;
 	width: 45%;
-	margin-top: 8%;
+	margin-top: 12%;
 	margin-left: 5%;
 }
 
 #sponsors .industry .image-container.panera {
 	width: 35%;
-	margin-top: -5%;
+	margin-top: -1%;
 	float: right;
 	margin-right: 5%;
 }
@@ -1041,6 +1041,7 @@ footer {
 	clear: both;
 	float: left;
 	margin-left: 9%;
+	margin-top: 2.5%;
 }
 
 #sponsors .partners .image-container.wolfram {
@@ -1052,6 +1053,7 @@ footer {
 #sponsors .partners .image-container.sketch {
 	float: left;
 	margin-left: 11%;
+	margin-top: 2.75%;
 }
 
 #sponsors .partners .image-container.do {
