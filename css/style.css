@@ -1002,13 +1002,6 @@ footer {
 	margin-top: 1.5%;
 }
 
-#sponsors hr {
-	clear: both;
-	width: 70%;
-	margin-top: 14rem;
-	border: 0.5px solid #036084;
-}
-
 #sponsors .partners .image-container {
 	width: 12%;
 	display: inline-block;
@@ -1061,10 +1054,34 @@ footer {
 	margin-top: 4%;
 }
 
+#sponsors .section-title {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
 #sponsors img {
 	width: 100%;
 }
 
+.showDesktop {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	#sponsors .image-container {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) {
+	.showDesktop {
+		display: block;
+	}
+
+	.showMobile {
+		display: none;
+	}
+}
 
 /*---------------------------------------
    Contact section
