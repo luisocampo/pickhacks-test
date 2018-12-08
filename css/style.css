@@ -607,9 +607,6 @@ footer {
 /*---------------------------------------
    Speakers section
 -----------------------------------------*/
-#speakers {
-    background: #eeeeee;
-}
 
 #speakers h2 {
 	color: #78BE20;
@@ -786,6 +783,10 @@ footer {
 
 .details-text .section-title {
 	margin-bottom: 2rem;
+}
+
+#program {
+	background-color: #eeeeee;
 }
 
 #program h4 {
