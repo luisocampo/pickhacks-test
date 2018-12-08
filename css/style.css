@@ -539,6 +539,10 @@ footer {
 	justify-content: space-between;
 }
 
+.overview-right .row {
+	display: flex;
+}
+
 .title {
 	border-left: 4px solid #78BE20;
 	padding-left: 2rem;
