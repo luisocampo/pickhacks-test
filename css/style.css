@@ -366,6 +366,22 @@ footer {
 	letter-spacing: 10px;
 }
 
+@media (max-width: 550px) {
+	#intro h1 {
+		font-size: 5rem;
+	}
+}
+
+@media (max-width: 390px) {
+	#intro h1 {
+		font-size: 3.5rem;
+	}
+
+	#intro h4 {
+		font-size: 1.4rem;
+	}
+}
+
 #intro .container {
 	display: inline-block;
 }
@@ -502,6 +518,16 @@ footer {
 	border-right: 1px solid rgba(128,128,128,0.45);
 	padding-top:1.5rem;
 	padding-bottom:1.5rem;
+}
+
+@media (max-width: 768px) {
+	.stat {
+		width: 49%;
+	}
+
+	.stat {
+		border-right: none;
+	}
 }
 
 .stat:last-child {
