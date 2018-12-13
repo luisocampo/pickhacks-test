@@ -549,19 +549,13 @@ footer {
 }
 
 @media (max-width: 768px) {
-	.number p {
-		font-size: 2.75rem;
-		margin-bottom: 0;
-	}
-
-	.word p {
-		font-size: 1rem;
-		margin-bottom: 0;
-	}
-
 	.stat {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
+	}
+
+	.stat:first-child, .stat:nth-child(2) {
+		margin-bottom: 1.8rem;
 	}
 
 	#snippets {
@@ -571,14 +565,6 @@ footer {
 }
 
 @media (max-width: 450px) {
-	.number p {
-		font-size: 2.25rem;
-	}
-
-	.word p {
-		font-size: 0.7rem;
-	}
-
 	.stat {
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
@@ -587,6 +573,18 @@ footer {
 	#snippets {
 		padding-top: 2rem;
 		padding-bottom: 2rem;
+	}
+}
+
+@media (max-width: 340px) {
+	.number p {
+		font-size: 3rem;
+		margin-bottom: 0;
+	}
+
+	.word p {
+		font-size: 1.25rem;
+		margin-bottom: 0;
 	}
 }
 
