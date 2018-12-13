@@ -705,8 +705,14 @@ footer {
 		margin-bottom: 3rem;
 	}
 
+	.overview-right .row {
+		display: block;
+		margin-bottom: 0;
+	}
+
 	.info-section {
-		width: 50%;
+		width: 100%;
+		margin-bottom: 1rem;
 	}
 
 	.title {
@@ -714,32 +720,14 @@ footer {
 	}
 
 	.info-words h4 {
-		font-size: 1.1rem;
+		display: inline-block;
+		margin-top: 0;
+		margin-bottom: 0.1rem;
 	}
 
 	.info-words p {
-		margin-left: 4rem;
-		font-size: 0.8rem;
-	}
-
-	.flaticon-lightbulb:before {
-		font-size: 4rem;
-		margin-top: -0.4rem;
-	}
-}
-
-@media (max-width: 450px) {
-	.info-words h4 {
-		font-size: 0.9rem;
-	}
-
-	.info-words p {
-		font-size: 0.7rem;
-	}
-
-	.flaticon-lightbulb:before {
-		font-size: 3rem;
-		margin-top: -0.4rem;
+		margin-left: 5rem;
+		font-size: 1.2rem;
 	}
 }
 
