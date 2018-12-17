@@ -99,7 +99,6 @@ section {
 
 #detail, #video,
 #speakers,
-#program,
 #sponsors,
 #contact {
     padding-top: 6rem;
@@ -771,10 +770,6 @@ footer {
 	border-color: #78BE20;
 }
 
-#speakers .row:first-child > * {
-	margin-left: 15px;
-}
-
 #speakers h3 {
     font-size: 16px;
     margin-bottom: 0px;
@@ -971,6 +966,16 @@ footer {
 
 #program .program-divider {
     border: 1px solid #f9f9f9;
+}
+
+#program .section-title {
+	margin-top: 6rem;
+}
+
+@media (max-width: 768px) {
+	#program .section-title {
+		margin-top: 0;
+	}
 }
 
 #program span {
