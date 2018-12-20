@@ -326,7 +326,7 @@ footer {
 
 }
 .custom-navbar.top-nav-collapse {
-		background: #101010;
+		background: #666;
 		padding: 0;
 }
 
@@ -606,25 +606,9 @@ footer {
 	display: flex;
 }
 
-.overview-left, .overview-right {
-	display: inline-block;
-	float: left;
-}
-
-.overview-left {
-	width: 35%;
-	margin-right: 15%;
-}
-
-.overview-right {
+.overview-left > * {
 	width: 50%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-.overview-right .row {
-	display: flex;
+	display: inline-block;
 }
 
 .title {
@@ -632,6 +616,7 @@ footer {
 	padding-left: 2rem;
 	padding-top: 2.5rem;
 	padding-bottom: 2.5rem;
+	float: left;
 }
 
 .title h2 {
@@ -644,89 +629,13 @@ footer {
 	font-weight: 900;
 }
 
-.description {
-	margin-top: 5rem;
-}
-
-.info-section {
-	width: 45%;
-	display: inline-block;
-}
-
-.info-section:nth-child(2n+1) {
-	margin-right: 5%;
-}
-
-.info-words h4 {
-	display: inline-block;
-	margin-top: 0;
-	margin-bottom: 0.1rem;
-}
-
-.info-words p {
-	margin-left: 5rem;
-	font-size: 1.2rem;
-}
-
-@media (max-width: 1200px) {
-	.info-words h4 {
-		font-size: 1.5rem;
-	}
-
-	.info-words p {
-		margin-left: 5rem;
-		font-size: 1rem;
-	}
-}
-
-@media (max-width: 991px) {
-	.info-words h4 {
-		font-size: 1.1rem;
-	}
-
-	.info-words p {
-		margin-left: 5rem;
-		font-size: 0.8rem;
-	}
-}
-
 @media (max-width: 768px) {
-	.overview-info {
-		flex-direction: column;
-	}
-
-	.overview-left, .overview-right {
+	.overview-left > * {
 		width: 100%;
 	}
 
-	.overview-left {
-		margin-right: 0;
-		margin-bottom: 3rem;
-	}
-
-	.overview-right .row {
-		display: block;
-		margin-bottom: 0;
-	}
-
-	.info-section {
-		width: 100%;
-		margin-bottom: 1rem;
-	}
-
-	.title {
-		margin-bottom: -2.75rem;
-	}
-
-	.info-words h4 {
-		display: inline-block;
-		margin-top: 0;
-		margin-bottom: 0.1rem;
-	}
-
-	.info-words p {
-		margin-left: 5rem;
-		font-size: 1.2rem;
+	.description {
+		margin-top: 5rem;
 	}
 }
 
@@ -1390,6 +1299,14 @@ footer {
 	.showMobile {
 		display: none;
 	}
+}
+
+#sponsors a div {
+	transition: all linear 0.1s;
+}
+
+#sponsors a:hover div {
+	transform: scale(1.1);
 }
 
 /*---------------------------------------
