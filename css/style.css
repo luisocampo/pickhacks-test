@@ -1020,8 +1020,8 @@ footer {
 }
 
 #sponsors .section-title {
-	display: inline-block;
 	border-color: #78BE20;
+	text-align: left;
 }
 
 #sponsors .section-title h2 {
