@@ -10,7 +10,7 @@ http://www.templatemo.com/tm-486-new-event
 
 body {
 		background: #ffffff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito','Poppins', sans-serif;
     font-style: normal;
 		font-weight: 400;
 		overflow-x: hidden;
@@ -98,11 +98,15 @@ section {
 }
 
 #detail, #video,
-#speakers,
 #sponsors,
 #contact {
     padding-top: 6rem;
     padding-bottom: 6rem;
+}
+
+#speakers {
+	padding-top: 6rem;
+	padding-bottom: 2rem;
 }
 
 #detail,
@@ -556,22 +560,12 @@ footer {
 	.stat:first-child, .stat:nth-child(2) {
 		margin-bottom: 1.8rem;
 	}
-
-	#snippets {
-		padding-top: 3rem;
-		padding-bottom: 3rem;
-	}
 }
 
 @media (max-width: 450px) {
 	.stat {
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
-	}
-
-	#snippets {
-		padding-top: 2rem;
-		padding-bottom: 2rem;
 	}
 }
 
@@ -677,6 +671,7 @@ footer {
 	display: inline-block;
 	float: left;
 	border-color: #78BE20;
+	margin-bottom: 4rem;
 }
 
 #speakers h3 {
@@ -712,8 +707,8 @@ footer {
     margin-bottom: 22px;
 }
 
-#speakers .row > div {
-	margin-bottom: 3rem;
+#speakers .row .row {
+	margin-bottom: 0;
 }
 
 #speakers .speakers-wrapper {
@@ -1159,21 +1154,27 @@ footer {
 
 #sponsors .industry-other .image-container.cbo {
 	clear: both;
-	width:12%;
+	width: 12%;
 	float: left;
 	margin-top: 2%;
-	margin-left: 45%;
+	margin-left: 22%;
+	margin-right: 2%;
+}
+
+#sponsors .industry-other .image-container.vet {
+	float: left;
+	margin-top: 1%;
+}
+
+#sponsors .industry-other .image-container.linode {
+	float: right;
+	width: 15%;
+	margin-top: 1%;
+	margin-right: 17%;
 }
 
 #sponsors .row-container {
 	width: 100%;
-}
-
-#sponsors .industry-other .image-container.eng {
-	float: right;
-	width: 27%;
-	margin-right: 2%;
-	margin-top: 3.5%;
 }
 
 #sponsors .industry-small .image-container {
@@ -1195,20 +1196,16 @@ footer {
 	margin-top: 3%;
 }
 
-#sponsors .industry-small .image-container.cs {
-	float: right;
-	margin-right: 20%;
-	margin-top: 4%;
-}
-
-#sponsors .industry-small .image-container.coab {
+#sponsors .partners .image-container.coab,
+#sponsors .partners .image-container.eng {
 	float: left;
 	clear: both;
 	margin-left: 29%;
 	margin-top: 2%;
 }
 
-#sponsors .industry-small .image-container.it {
+#sponsors .partners .image-container.it,
+#sponsors .partners .image-container.cs {
 	float: right;
 	width: 18%;
 	margin-right: 29%;
