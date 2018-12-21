@@ -10,7 +10,7 @@ http://www.templatemo.com/tm-486-new-event
 
 body {
 		background: #ffffff;
-    font-family: 'Nunito','Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
 		font-weight: 400;
 		overflow-x: hidden;
@@ -78,6 +78,7 @@ section {
 	margin-left: 2rem;
 	color: #036084;
 	font-size: 2.25rem;
+	word-spacing: normal;
 }
 
 @media (max-width: 800px) {
@@ -1129,6 +1130,12 @@ footer {
 	margin-top: -4%;
 }
 
+@media (max-width: 768px) {
+	#sponsors .industry-other .image-container.git {
+		margin-top: -8%;
+	}
+}
+
 #sponsors .industry-other .image-container.rr {
 	float: left;
 	margin-top: 2%;
@@ -1199,16 +1206,16 @@ footer {
 #sponsors .partners .image-container.eng {
 	float: left;
 	clear: both;
-	margin-left: 32%;
+	margin-left: 37%;
 	margin-top: 2%;
-	width: 17%;
+	width: 14%;
 }
 
 #sponsors .partners .image-container.it,
 #sponsors .partners .image-container.cs {
 	float: right;
-	width: 18%;
-	margin-right: 26%;
+	width: 15%;
+	margin-right: 31%;
 	margin-top: 1.5%;
 }
 
@@ -1220,19 +1227,22 @@ footer {
 
 #sponsors .partners .image-container.mlh {
 	float: left;
-	margin-left: 28%;
-	margin-top: 3%;
+	margin-left: 36%;
+	margin-top: 3.5%;
+	width: 9%;
 }
 
 #sponsors .partners .image-container.acm {
 	float: left;
-	width: 9%;
+	width: 6%;
 	margin-left: 5%;
 }
 
 #sponsors .partners .image-container.acm-w {
 	float: left;
 	margin-left: 5%;
+	width: 9%;
+	margin-top: 2.5%;
 }
 
 #sponsors .partners .image-container.tech {
