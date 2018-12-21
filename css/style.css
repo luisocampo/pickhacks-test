@@ -1090,20 +1090,22 @@ footer {
 #sponsors .industry-other .image-container.edward {
 	float: left;
 	margin-top: 8%;
-	margin-left: 20%;
-	margin-right: 3%;
+	margin-left: 25%;
+	margin-right: 4%;
+	width: 16%;
 }
 
 #sponsors .industry-other .image-container.emerson {
-	width: 17%;
+	width: 14%;
 	margin-top: 4%;
 }
 
 #sponsors .industry-other .image-container.hw {
 	float: right;
 	display: block;
-	margin-right: 17%;
+	margin-right: 22%;
 	margin-top: 7%;
+	width: 16%;
 }
 
 #sponsors .industry-other .image-container.labs {
@@ -1121,9 +1123,9 @@ footer {
 
 #sponsors .industry-other .image-container.git {
 	float: right;
-	width: 12%;
+	width: 10%;
 	clear: both;
-	margin-right: 25%;
+	margin-right: 27%;
 	margin-top: -4%;
 }
 
@@ -1175,7 +1177,7 @@ footer {
 }
 
 #sponsors .industry-small .image-container {
-	width: 17%;
+	width: 15%;
 	display: inline-block;
 	margin-top: 3.5%;
 }
@@ -1183,8 +1185,8 @@ footer {
 #sponsors .industry-small .image-container.balsamiq {
 	clear: both;
 	float: left;
-	margin-left: 35%;
-	width: 12%;
+	margin-left: 38.5%;
+	width: 10%;
 	margin-right: 2%;
 }
 
@@ -1236,34 +1238,34 @@ footer {
 #sponsors .partners .image-container.tech {
 	clear: both;
 	float: left;
-	margin-left: 33%;
-	margin-top: 2.5%;
-	width: 9%;
+	margin-left: 37%;
+	margin-top: 2%;
+	width: 8%;
 	margin-right: 1%;
 }
 
 #sponsors .partners .image-container.jet {
 	float: left;
-	width: 5%;
+	width: 4%;
 	margin-right: 1%;
 }
 
 #sponsors .partners .image-container.sketch {
 	float: left;
-	width: 6%;
+	width: 5%;
 	margin-right: 2%;
 	margin-top: 1%;
 }
 
 #sponsors .partners .image-container.wolfram {
 	float: left;
-	width: 4%;
+	width: 3%;
 	margin-right: 2%;
 }
 
 #sponsors .partners .image-container.do {
 	float: left;
-	width: 4%;
+	width: 3%;
 	margin-right: 2%;
 }
 
