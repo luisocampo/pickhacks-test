@@ -1007,6 +1007,7 @@ footer {
 -----------------------------------------*/
 #sponsors {
 	padding-top: 2.5rem;
+	text-align: left;
 }
 
 #sponsors h3 {
@@ -1016,7 +1017,6 @@ footer {
 
 #sponsors .section-title {
 	border-color: #78BE20;
-	text-align: left;
 }
 
 #sponsors .section-title h2 {
@@ -1053,7 +1053,7 @@ footer {
 	float: left;
 	width: 45%;
 	margin-top: 8%;
-	margin-left: 14%;
+	margin-left: 13%;
 }
 
 #sponsors .industry .image-container.panera {
@@ -1200,15 +1200,16 @@ footer {
 #sponsors .partners .image-container.eng {
 	float: left;
 	clear: both;
-	margin-left: 29%;
+	margin-left: 32%;
 	margin-top: 2%;
+	width: 17%;
 }
 
 #sponsors .partners .image-container.it,
 #sponsors .partners .image-container.cs {
 	float: right;
 	width: 18%;
-	margin-right: 29%;
+	margin-right: 26%;
 	margin-top: 1.5%;
 }
 
