@@ -1037,10 +1037,6 @@ footer {
 	}
 }
 
-#sponsors .container {
-	width: 80%;
-}
-
 #sponsors .industry {
 	padding-top: 1.5rem;
 }
@@ -1095,6 +1091,7 @@ footer {
 	float: left;
 	margin-top: 8%;
 	margin-left: 8%;
+	margin-right: 3%;
 }
 
 #sponsors .industry-other .image-container.emerson {
@@ -1173,8 +1170,8 @@ footer {
 	margin-right: 17%;
 }
 
-#sponsors .row-container {
-	width: 100%;
+#sponsors .row {
+	margin-left: 0;
 }
 
 #sponsors .industry-small .image-container {
@@ -1272,7 +1269,7 @@ footer {
 
 #sponsors .section-title {
 	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-bottom: 2%;
 }
 
 #sponsors img {
