@@ -1066,23 +1066,23 @@ footer {
 }
 
 #sponsors .industry-mid .image-container {
-	width: 35%;
+	width: 28%;
 }
 
 .tradebot {
 	float: left;
 	margin-top: 7%;
-	margin-left: 11%;
+	margin-left: 20%;
 }
 
 .mixmax {
 	float: right;
 	margin-top: 5%;
-	margin-right: 11%;
+	margin-right: 20%;
 }
 
 #sponsors .industry-other .image-container {
-	width: 30%;
+	width: 20%;
 	display: inline-block;
 	margin-top: 5%;
 }
@@ -1090,72 +1090,72 @@ footer {
 #sponsors .industry-other .image-container.edward {
 	float: left;
 	margin-top: 8%;
-	margin-left: 8%;
+	margin-left: 20%;
 	margin-right: 3%;
 }
 
 #sponsors .industry-other .image-container.emerson {
-	width: 20%;
-	margin-top: 3%;
+	width: 17%;
+	margin-top: 4%;
 }
 
 #sponsors .industry-other .image-container.hw {
 	float: right;
 	display: block;
-	width: 27%;
-	margin-right: 9%;
-	margin-top: 6%;
+	margin-right: 17%;
+	margin-top: 7%;
 }
 
 #sponsors .industry-other .image-container.labs {
-	width: 22%;
+	width: 15%;
 	float: left;
-	margin-left: 12%;
+	margin-left: 24%;
 	margin-right: 2%;
 	margin-top: 3%;
 }
 
 #sponsors .industry-other .image-container.master {
 	float: left;
-	margin-top: 2%;
+	margin-top: 3%;
 }
 
 #sponsors .industry-other .image-container.git {
 	float: right;
-	width: 15%;
+	width: 12%;
 	clear: both;
-	margin-right: 16%;
-	margin-top: -5%;
+	margin-right: 25%;
+	margin-top: -4%;
 }
 
 #sponsors .industry-other .image-container.rr {
 	float: left;
-	width: 26%;
 	margin-top: 2%;
-	margin-left: 10%;
+	margin-left: 21%;
+	margin-right: -1%;
+	width: 18%;
 }
 
 #sponsors .industry-other .image-container.union {
 	float: left;
-	width: 23%;
+	width: 18%;
 	margin-top: 2%;
 	margin-left: 4%;
 }
 
 #sponsors .industry-other .image-container.software {
 	float: right;
-	width: 17%;
-	margin-right: 15%;
+	width: 14%;
+	margin-right: 23%;
 	margin-top: 2%;
 }
 
 #sponsors .industry-other .image-container.cbo {
 	clear: both;
-	width: 12%;
+	width: 10%;
 	float: left;
 	margin-top: 2%;
-	margin-left: 22%;
-	margin-right: 2%;
+	margin-left: 28%;
+	margin-right: 3%;
 }
 
 #sponsors .industry-other .image-container.vet {
@@ -1165,9 +1165,9 @@ footer {
 
 #sponsors .industry-other .image-container.linode {
 	float: right;
-	width: 15%;
+	width: 12%;
 	margin-top: 1%;
-	margin-right: 17%;
+	margin-right: 24%;
 }
 
 #sponsors .row {
@@ -1183,7 +1183,7 @@ footer {
 #sponsors .industry-small .image-container.balsamiq {
 	clear: both;
 	float: left;
-	margin-left: 38%;
+	margin-left: 35%;
 	width: 12%;
 	margin-right: 2%;
 }
@@ -1236,34 +1236,34 @@ footer {
 #sponsors .partners .image-container.tech {
 	clear: both;
 	float: left;
-	margin-left: 32%;
+	margin-left: 33%;
 	margin-top: 2.5%;
-	width: 10%;
+	width: 9%;
 	margin-right: 1%;
 }
 
 #sponsors .partners .image-container.jet {
 	float: left;
-	width: 6%;
+	width: 5%;
 	margin-right: 1%;
 }
 
 #sponsors .partners .image-container.sketch {
 	float: left;
-	width: 7%;
+	width: 6%;
 	margin-right: 2%;
 	margin-top: 1%;
 }
 
 #sponsors .partners .image-container.wolfram {
 	float: left;
-	width: 5%;
+	width: 4%;
 	margin-right: 2%;
 }
 
 #sponsors .partners .image-container.do {
 	float: left;
-	width: 5%;
+	width: 4%;
 	margin-right: 2%;
 }
 
