@@ -225,6 +225,7 @@ footer {
 -----------------------------------------*/
 .custom-navbar {
     margin-bottom: 0;
+		transition: all linear 0.2s;
 }
 
 .custom-navbar .container {
@@ -1499,27 +1500,22 @@ footer {
 	#sponsors .partners .image-container.eng {
 		float: left;
 		clear: both;
-		margin-left: 11%;
+		margin-left: 30%;
 		margin-top: 2%;
 		width: 17%;
 		margin-right: 2%;
 	}
 
-	#sponsors .partners .image-container.coab {
-		clear: none;
-		margin-left: 0
-	}
-
 	#sponsors .partners .image-container.it,
 	#sponsors .partners .image-container.cs {
 		float: left;
-		width: 17%;
+		width: 19%;
 		margin-right: 2%;;
-		margin-top: 2%;
+		margin-top: 1.5%;
 	}
 
 	#sponsors .partners .image-container.it {
-		margin-top: 1.9%;
+		margin-top: 1.4%;
 		margin-right: 0;
 	}
 }
