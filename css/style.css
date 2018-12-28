@@ -1315,7 +1315,7 @@ footer {
 }
 
 #sponsors .industry-small .image-container {
-	width: 15%;
+	width: 12%;
 	display: inline-block;
 	margin-top: 3.5%;
 }
@@ -1323,14 +1323,14 @@ footer {
 #sponsors .industry-small .image-container.balsamiq {
 	clear: both;
 	float: left;
-	margin-left: 38.5%;
-	width: 10%;
+	margin-left: 41%;
+	width: 7%;
 	margin-right: 2%;
 }
 
 #sponsors .industry-small .image-container.brewer {
 	float: left;
-	margin-top: 2.5%;
+	margin-top: 2.8%;
 }
 
 #sponsors .partners .image-container {
