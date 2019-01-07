@@ -1265,6 +1265,21 @@ footer {
 	margin-right: 24%;
 }
 
+#sponsors .industry-other .image-container.bayer {
+	float:left;
+	clear:both;
+	width: 7%;
+	margin-left: 40%;
+	margin-top: 2%;
+}
+
+#sponsors .industry-other .image-container.cards {
+	float:right;
+	width: 7%;
+	margin-right: 40%;
+	margin-top: 2%;
+}
+
 @media (max-width: 768px) {
 	#sponsors .industry-other .image-container.edward {
 		margin-top: 5%;
