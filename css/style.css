@@ -595,6 +595,20 @@ footer {
 #overview {
 	padding-top: 8rem;
 	padding-bottom: 8rem;
+	position: relative;
+}
+
+#overview::after {
+  content: "";
+  background: url('../images/icons/pattern.png');
+	background-position: center;
+	opacity: 0.04;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 .overview-info {
