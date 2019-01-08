@@ -598,7 +598,11 @@ footer {
 	position: relative;
 }
 
-#overview::after {
+#speakers, #sponsors {
+	position: relative;
+}
+
+#overview::after, #speakers::after, #sponsors::after {
   content: "";
   background: url('../images/icons/pattern.png');
 	background-position: center;
