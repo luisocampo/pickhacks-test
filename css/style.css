@@ -1187,7 +1187,7 @@ footer {
 	}
 
 	.mixmax {
-		margin-top: 2%;
+		margin-top: 5%;
 		margin-right: 10%;
 	}
 }
@@ -1310,7 +1310,7 @@ footer {
 
 	#sponsors .industry-other .image-container.emerson {
 		width: 20%;
-		margin-top: -0.5%;
+		margin-top: 0;
 	}
 
 	#sponsors .industry-other .image-container.hw {
@@ -1325,6 +1325,7 @@ footer {
 		margin-left: 11%;
 		margin-right: 4%;
 		margin-top: 3%;
+		clear: both;
 	}
 
 	#sponsors .industry-other .image-container.master {
