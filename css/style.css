@@ -1566,6 +1566,13 @@ footer {
 	margin-top: 1.5%;
 }
 
+#sponsors .partners .image-container.lib {
+	clear: both;
+	float: left;
+	width: 8%;
+	margin-left: 48.5%;
+}
+
 @media (max-width: 768px) {
 	#sponsors .partners .image-container.mlh {
 		margin-left: 26%;
