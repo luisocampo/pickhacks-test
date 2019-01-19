@@ -1285,6 +1285,28 @@ footer {
 	margin-right: 24%;
 }
 
+#sponsors .industry-other .image-container.allscripts {
+	float: left;
+	clear: both;
+	width: 15%;
+  margin-left: 24%;
+  margin-top: 3%;
+}
+
+#sponsors .industry-other .image-container.accenture {
+	float: left;
+	margin-top: 1.9%;
+  width: 14%;
+  margin-left: 5%;
+}
+
+#sponsors .industry-other .image-container.att {
+	float: left;
+	width: 12%;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
 #sponsors .industry-other .image-container.bayer {
 	float:left;
 	clear:both;
@@ -1380,6 +1402,24 @@ footer {
 		margin-top: 0;
 		margin-right: 17%;
 	}
+
+	#sponsors .industry-other .image-container.allscripts {
+		width: 18%;
+    margin-left: 18%;
+    margin-top: 0%;
+	}
+
+	#sponsors .industry-other .image-container.accenture {
+		margin-top: -1.7%;
+    width: 17%;
+    margin-left: 6.5%;
+	}
+
+	#sponsors .industry-other .image-container.att {
+		width: 15%;
+    margin-top: -1.5%;
+    margin-left: 8%;
+	}
 }
 
 @media (max-width: 550px) {
@@ -1468,8 +1508,14 @@ footer {
 	float: left;
 	clear: both;
 	width: 18%;
-	margin-left: 44.5%;
+	margin-left: 36%;
 	margin-top: 0.5%;
+}
+
+#sponsors .partners .image-container.js {
+	float: left;
+	width: 14%;
+	margin-top: 1.5%;
 }
 
 @media (max-width: 768px) {
@@ -1523,9 +1569,14 @@ footer {
 
 	#sponsors .partners .image-container.mule {
 		width: 23%;
-		margin-left: 38%;
+		margin-left: 27%;
 		margin-top: -2.5%;
 		margin-bottom: -4%;
+	}
+
+	#sponsors .partners .image-container.js {
+		width: 19%;
+    margin-top: -1.1%;
 	}
 }
 
@@ -1549,21 +1600,12 @@ footer {
 	margin-top: 2.5%;
 }
 
-#sponsors .partners .image-container.coab,
-#sponsors .partners .image-container.eng {
-	float: left;
+#sponsors .partners .image-container.sandt {
 	clear: both;
-	margin-left: 37%;
-	margin-top: 2%;
-	width: 14%;
-}
-
-#sponsors .partners .image-container.it,
-#sponsors .partners .image-container.cs {
-	float: right;
-	width: 15%;
-	margin-right: 31%;
-	margin-top: 1.5%;
+  float: left;
+  width: 35%;
+  margin-left: 35.5%;
+  margin-top: 1%;
 }
 
 #sponsors .partners .image-container.lib {
@@ -1593,27 +1635,10 @@ footer {
 		margin-top: 2.5%;
 	}
 
-	#sponsors .partners .image-container.coab,
-	#sponsors .partners .image-container.eng {
-		float: left;
-		clear: both;
-		margin-left: 30%;
-		margin-top: 2%;
-		width: 17%;
-		margin-right: 2%;
-	}
-
-	#sponsors .partners .image-container.it,
-	#sponsors .partners .image-container.cs {
-		float: left;
-		width: 19%;
-		margin-right: 2%;;
-		margin-top: 1.5%;
-	}
-
-	#sponsors .partners .image-container.it {
-		margin-top: 1.4%;
-		margin-right: 0;
+	#sponsors .partners .image-container.sandt {
+		width: 45%;
+    margin-left: 26.5%;
+    margin-top: -2%;
 	}
 }
 
