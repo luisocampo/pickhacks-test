@@ -1307,19 +1307,48 @@ footer {
   margin-left: 5%;
 }
 
+#sponsors .industry-other .image-container.sandia {
+	margin-left: 27%;
+  clear: both;
+  float: left;
+  width: 12%;
+  margin-top: 2%;
+}
+
+#sponsors .industry-other .image-container.state {
+	width: 18%;
+  float: left;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+#sponsors .industry-other .image-container.oasis {
+	float: left;
+  width: 13%;
+  margin-top: 1.5%;
+  margin-left: 2%;
+}
+
 #sponsors .industry-other .image-container.bayer {
-	float:left;
-	clear:both;
-	width: 7%;
-	margin-left: 40%;
-	margin-top: 2%;
+	float: left;
+  clear: both;
+  width: 7%;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+
+#sponsors .industry-other .image-container.unger {
+	float: left;
+  width: 17%;
+  margin-top: 3.5%;
+  margin-left: 5.5%;
 }
 
 #sponsors .industry-other .image-container.cards {
-	float:right;
-	width: 7%;
-	margin-right: 40%;
-	margin-top: 2%;
+	float: right;
+  width: 7%;
+  margin-right: 30%;
+  margin-top: 2%;
 }
 
 @media (max-width: 768px) {
@@ -1419,6 +1448,42 @@ footer {
 		width: 15%;
     margin-top: -1.5%;
     margin-left: 8%;
+	}
+
+	#sponsors .industry-other .image-container.sandia {
+		margin-left: 22.5%;
+	  width: 15%;
+	  margin-top: -2%;
+	}
+
+	#sponsors .industry-other .image-container.state {
+		width: 21%;
+	  margin-top: -1%;
+	  margin-left: 3%;
+	}
+
+	#sponsors .industry-other .image-container.oasis {
+	  width: 16%;
+	  margin-top: -2.5%;
+	  margin-left: 2%;
+	}
+
+	#sponsors .industry-other .image-container.bayer {
+		width: 9%;
+		margin-left: 26.5%;
+		margin-top: -1%;
+	}
+
+	#sponsors .industry-other .image-container.unger {
+		width: 20%;
+    margin-top: 0.5%;
+    margin-left: 5.5%;
+	}
+
+	#sponsors .industry-other .image-container.cards {
+		width: 9%;
+    margin-right: 26.5%;
+    margin-top: -1%;
 	}
 }
 
