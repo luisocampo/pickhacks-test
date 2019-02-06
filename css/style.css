@@ -1125,16 +1125,17 @@ footer {
 
 #sponsors .industry .image-container.centene {
 	float: left;
+	clear: both;
 	width: 45%;
-	margin-top: 8%;
-	margin-left: 13%;
+	margin-top: 4%;
+	margin-left: 29%;
 }
 
 #sponsors .industry .image-container.panera {
-	width: 25%;
+	width: 29%;
 	margin-top: -1%;
-	float: right;
-	margin-right: 14%;
+	float: left;
+	margin-left: 36%;
 }
 
 #sponsors .industry .image-container.es {
@@ -1146,13 +1147,12 @@ footer {
 @media (max-width: 768px) {
 	#sponsors .industry .image-container.centene {
 		width: 58%;
-		margin-left: 0;
-		margin-top: 11%;
+		margin-left: 25%;
 	}
 
 	#sponsors .industry .image-container.panera {
-		width: 38%;
-		margin-right: 1%;
+		width: 42%;
+		margin-left: 32%;
 	}
 
 	#sponsors .industry .image-container.es {
