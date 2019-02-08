@@ -1127,15 +1127,15 @@ footer {
 	float: left;
 	clear: both;
 	width: 45%;
-	margin-top: 4%;
+	margin-top: 7%;
 	margin-left: 29%;
 }
 
 #sponsors .industry .image-container.panera {
-	width: 29%;
+	width: 33%;
 	margin-top: -1%;
 	float: left;
-	margin-left: 36%;
+	margin-left: 33%;
 }
 
 #sponsors .industry .image-container.es {
@@ -1174,6 +1174,11 @@ footer {
 	float: right;
 	margin-top: 7%;
 	margin-right: 20%;
+}
+
+#sponsors .industry-mid .image-container.enterprise {
+	width: 25%;
+	margin-left: 35%;
 }
 
 @media (max-width: 768px) {
