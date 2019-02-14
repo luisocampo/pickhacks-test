@@ -1682,15 +1682,15 @@ footer {
 
 #sponsors .partners .image-container.acm {
 	float: left;
-	width: 6%;
-	margin-left: 5%;
+	width: 11%;
+	margin-left: 3%;
 }
 
 #sponsors .partners .image-container.acm-w {
 	float: left;
-	margin-left: 5%;
+	margin-left: 3%;
 	width: 9%;
-	margin-top: 2.5%;
+	margin-top: 2.75%;
 }
 
 #sponsors .partners .image-container.sandt {
@@ -1717,15 +1717,16 @@ footer {
 
 	#sponsors .partners .image-container.acm {
 		float: left;
-		width: 8%;
+		width: 15%;
 		margin-left: 5%;
+		margin-top: 2.5%;
 	}
 
 	#sponsors .partners .image-container.acm-w {
 		float: left;
-		margin-left: 5%;
+		margin-left: 4%;
 		width: 13%;
-		margin-top: 2.5%;
+		margin-top: 3.5%;
 	}
 
 	#sponsors .partners .image-container.sandt {
