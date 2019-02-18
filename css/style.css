@@ -1348,21 +1348,28 @@ footer {
 	float: left;
   clear: both;
   width: 7%;
-  margin-left: 30%;
-  margin-top: 2%;
+  margin-left: 39%;
+  margin-top: 0;
+}
+
+#sponsors .industry-other .image-container.tyson {
+	clear: both;
+	float: left;
+	margin-top: 1%;
+	margin-left: 30%;
 }
 
 #sponsors .industry-other .image-container.union {
 	float: left;
   margin-top: 3%;
-  margin-left: 3.75%;
+  margin-left: 0;
 }
 
 #sponsors .industry-other .image-container.cards {
 	float: right;
   width: 7%;
-  margin-right: 30%;
-  margin-top: 2%;
+  margin-right: 38%;
+  margin-top: 0;
 }
 
 @media (max-width: 768px) {
@@ -1484,8 +1491,14 @@ footer {
 
 	#sponsors .industry-other .image-container.bayer {
 		width: 9%;
-		margin-left: 26.5%;
-		margin-top: -1%;
+    margin-left: 37.5%;
+    margin-top: -2%;
+	}
+
+	#sponsors .industry-other .image-container.tyson {
+		margin-top: -2.5%;
+    width: 24.5%;
+    margin-left: 24.5%;
 	}
 
 	#sponsors .industry-other .image-container.union {
@@ -1496,8 +1509,8 @@ footer {
 
 	#sponsors .industry-other .image-container.cards {
 		width: 9%;
-    margin-right: 26.5%;
-    margin-top: -1%;
+    margin-right: 36.5%;
+    margin-top: -2%;
 	}
 }
 
