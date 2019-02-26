@@ -2060,42 +2060,50 @@ footer p {
 }
 
 @media (max-width: 2000px) {
-    .navbar-header {
+    #hacker-guide .navbar-header {
         float: none;
     }
-    .navbar-left,.navbar-right {
+    #hacker-guide .navbar-left,.navbar-right {
         float: none !important;
     }
-    .navbar-toggle {
+    #hacker-guide .navbar-toggle {
         display: block;
     }
-    .navbar-collapse {
+    #hacker-guide .navbar-collapse {
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
     }
-    .navbar-fixed-top {
+    #hacker-guide .navbar-fixed-top {
         top: 0;
         border-width: 0 0 1px;
     }
-    .navbar-collapse.collapse {
+    #hacker-guide .navbar-collapse.collapse {
         display: none!important;
     }
-    .navbar-nav {
+    #hacker-guide .navbar-nav {
         float: none!important;
         margin-top: 7.5px;
     }
-    .navbar-nav>li {
+    #hacker-guide .navbar-nav>li {
         float: none;
     }
-    .navbar-nav>li>a {
+    #hacker-guide .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .collapse.in{
+    #hacker-guide .collapse.in{
         display:block !important;
     }
 
-		.custom-navbar .navbar-header {
+		#hacker-guide .custom-navbar .navbar-header {
 			display: flex;
+		}
+
+		.custom-navbar .container {
+			display: flex;
+		}
+
+		#hacker-guide .custom-navbar .container {
+			display: block;
 		}
 }
