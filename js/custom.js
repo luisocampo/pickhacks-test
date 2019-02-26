@@ -15,20 +15,3 @@ $(window).scroll(function() {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
 });
-
-
-/* HTML document is loaded. DOM is ready.
--------------------------------------------*/
-$(document).ready(function() {
-
-  /* Hide mobile menu after clicking on a link
-    -----------------------------------------------*/
-    $('.navbar-collapse a').click(function(){
-        $(".navbar-collapse").collapse('hide');
-    });
-
-  /* wow
-  -------------------------------*/
-  new WOW({ mobile: false }).init();
-
-  });
