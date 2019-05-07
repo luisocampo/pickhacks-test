@@ -14,6 +14,7 @@ body {
     font-style: normal;
 		font-weight: 400;
 		overflow-x: hidden;
+		overflow-y: hidden;
 }
 
 
@@ -136,17 +137,9 @@ footer {
     padding: 14px 42px;
     margin: -7rem 1rem 0 1rem;
 		display: inline-block;
-		width: 226px;
+		width: 256px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-}
-
-@media (max-width: 430px) {
-	#intro .btn,
-	#contact .btn {
-    padding: 14px 12px;
-		width: 114px;
-	}
 }
 
 #intro .btn-danger,
@@ -426,6 +419,41 @@ footer {
 #intro .container {
 	display: inline-block;
 	margin-top: 7rem;
+}
+
+@media (max-width: 992px) {
+	.intro-buttons {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#intro .intro-buttons a.btn {
+		margin: 2rem auto;
+	}
+
+	.intro-form {
+		margin-top: 5rem;
+	}
+}
+
+@media (max-width: 450px) {
+	#intro .intro-form input {
+		width: 75%;
+		margin-right: auto !important;
+	}
+
+	#intro .intro-form button {
+		margin-left: auto !important;
+	}
+}
+
+#intro input:hover {
+	cursor: initial;
+}
+
+::placeholder {
+	opacity: 1;
+	color: white;
 }
 
 #intro .row {
