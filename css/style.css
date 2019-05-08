@@ -14,7 +14,12 @@ body {
     font-style: normal;
 		font-weight: 400;
 		overflow-x: hidden;
+}
+
+@media (min-width: 992px) {
+	body {
 		overflow-y: hidden;
+	}
 }
 
 
@@ -388,7 +393,12 @@ footer {
           align-items: center;
     height: 115vh;
 		line-height: 200px;
+}
 
+@media (min-width: 992px) {
+	#intro {
+		height: 100vh;
+	}
 }
 
 #intro h3 {
@@ -433,17 +443,6 @@ footer {
 
 	.intro-form {
 		margin-top: 5rem;
-	}
-}
-
-@media (max-width: 450px) {
-	#intro .intro-form input {
-		width: 75%;
-		margin-right: auto !important;
-	}
-
-	#intro .intro-form button {
-		margin-left: auto !important;
 	}
 }
 
