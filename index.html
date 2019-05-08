@@ -119,6 +119,14 @@
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 
 <script type="text/javascript">
+	$(document).ready(function() {
+		var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+		if (w < 573) {
+			document.getElementsByName('EMAIL')[0].placeholder='Your email';
+		} else {
+			document.getElementsByName('EMAIL')[0].placeholder='Enter your email address';
+		}
+	});
   window.addEventListener('resize', function() {
 		var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 		if (w < 573) {
