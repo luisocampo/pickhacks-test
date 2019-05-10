@@ -397,7 +397,13 @@ footer {
 
 @media (min-width: 992px) {
 	#intro {
-		height: 100vh;
+		height: calc(100vh);
+	}
+
+	footer {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
 	}
 }
 
@@ -1940,12 +1946,22 @@ footer {
 footer {
   background-attachment: fixed;
 	background: #666;
-	padding-top: 2.5rem;
+	padding: 1rem 0;
 }
 
 footer p {
 	font-weight: bolder;
 	color: #ffffff;
+}
+
+footer a i {
+	color: white;
+	margin-left: 2rem;
+	transition: all .2s linear;
+}
+
+footer a:hover i {
+	color: #cccccc;
 }
 
 /* Back top */
