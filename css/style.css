@@ -1968,6 +1968,12 @@ footer a:hover i {
 	color: #cccccc;
 }
 
+@media (max-width: 992px) {
+	footer {
+		margin-top: -4rem;
+	}
+}
+
 /* Back top */
 .go-top {
   background-color: #222;
